@@ -419,6 +419,7 @@ public class InCallUiState {
     public void dumpState() {
         log("dumpState():");
         log("  - showDialpad: " + showDialpad);
+        log("    - dialpadContextText: " + dialpadContextText);
         if (hasPendingCallStatusCode()) {
             log("  - status indication is pending!");
             log("    - pending call status code = " + mPendingCallStatusCode);
